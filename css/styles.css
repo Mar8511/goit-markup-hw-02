@@ -52,7 +52,7 @@ p {
 	font-family: var(--second-family);
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 21px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--iris);
@@ -101,7 +101,7 @@ p {
 .footer {
 	background: var(--nave-blue);
 }
-.footer p {
+.text{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
