@@ -80,7 +80,7 @@ a {
 }
 
 .post:hover,
-.post:active {
+.post:focus{
 	color: #404bbf;
 }
 
