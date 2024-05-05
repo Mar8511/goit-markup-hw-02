@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 }
 
-h1 {
+.headline-main{
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
@@ -30,18 +30,18 @@ h1 {
 	color: var(--white);
 	text-align: center;
 }
-h3 {
+.one{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--nave-blue);
 }
-p {
+.two{
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455);
+	color: #434455;
 
 }
 
@@ -60,23 +60,30 @@ p {
 .icon {
 	color: var(--nave-blue);
 }
-.link {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--navy-blue);
+
+.item a {
+    	font-weight: 500;
+	 	font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--nave-blue);
 }
 
-.contact a
-{
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color:var(--slate)
-}
+
+	
+
+.contact {
+	font-style: normal;}
+
+	.info a {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: var(--slate);
+	}
+
+.post:hover,
+.post:active {color: #404bbf;}
 
 .headline {
 	background-color: var(--nave-blue);
@@ -88,13 +95,10 @@ p {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: var(--white);
-	background-color: var(--ocean);
-	#404BBF,
+	background-color: var(--iris);
 }
-.list p {
-	color: var(--slate);
-}
-.headline-second {
+
+.headline-second, .headline-third {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -105,6 +109,7 @@ p {
 }
 .cards {
 	background-color: var(--cloud);
+	
 }
 
 .image {
@@ -130,19 +135,14 @@ p {
 	color: var(--iris);
 }
 
-.contact a:hover,
-.contact a:active{
-	color:var(--ocean);
-}
+.link-studio:hover{color:#2e2f42;}
 
-.link:hover,
-.link:active {
-	color: var(--ocean);
-}
+.link-studio:active{color: #404bbf;}
+
 
 
 .btn:hover,
-.btn:focus {
-	background:var(--iris);
+.btn:active{
+	background-color: #404BBF;
 	cursor: pointer;}
 	
